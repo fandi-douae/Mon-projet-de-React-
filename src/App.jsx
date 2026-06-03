@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-/*import Events from "./components/Events"; */
+import Events from "./components/Events"; 
 import EventDetails from "./pages/EventDetails";
 import Footer from "./components/Footer";
 import About from "./pages/About";
@@ -13,7 +13,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-         {/*<Route path="/events" element={<Events />} />*/}
+        <Route path="/events" element={<Events />} />
         <Route path="/event/:id" element={<EventDetails />} />
         <Route path="/pages/about" element={<About />} />
       </Routes>
@@ -22,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
