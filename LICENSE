@@ -1,21 +1,47 @@
-MIT License
+# Site web du club de la faculté
 
-Copyright (c) 2026 fandidouae05-bit
+Site web du club de notre faculté, réalisé avec **React** et **Vite**.
+Il présente le club, ses membres et ses événements, et permet de s'inscrire en ligne.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Fonctionnalités
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+- Formulaire d'inscription pour rejoindre le club
+- Liste des membres
+- Présentation du club et de ses objectifs
+- Événements passés
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## Technologies utilisées
+
+- React
+- Vite
+- JavaScript
+- HTML / CSS
+- ESLint
+
+## Installation
+
+```bash
+git clone https://github.com/fandidouae05-bit/Mon-projet-de-React-.git
+cd Mon-projet-de-React-
+npm install
+npm run dev
+```
+
+Ouvre ensuite http://localhost:5173 dans ton navigateur.
+
+## Structure du projet
+
+```
+├── public/        # fichiers statiques (images, icônes)
+├── src/           # code source de l'application
+├── index.html     # page principale
+└── package.json   # dépendances du projet
+```
+
+## Auteur
+
+Fandidouae
+
+## Licence
+
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
